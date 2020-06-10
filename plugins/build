@@ -1,0 +1,5 @@
+#!/bin/bash
+
+gcc -DDEBUG -g -Wall -fPIC -o libq2.o -c libq2.c
+gcc -shared -lm -o libq2.so libq2.o
+rm libq2.o

@@ -1,0 +1,43 @@
+2005-05-28	masterserver-0.4.1 release
+- fixed a byte-order bug in the Doom 3 plugin
+
+2005-05-21	masterserver-0.4 release
+- updated STVEF1, UT and Doom 3 sections in docs/PROTOCOLS
+- added RtCW section to docs/PROTOCOLS
+- plugin API changed slightly
+- lots of bug fixes and cleaning up
+- compiles and runs on FreeBSD out-of-the-box
+- Doom 3 plugin
+- Star Trek Voyager: Elite Force plugin
+
+2004-04-26	masterserver-0.3.3 release
+- fix libh2/q2 gamespy query bug for real
+- docs/PROTOKOLLE* merged and translated to docs/PROTOCOLS
+- masterserver LAN usage pointers in README
+- QuakeWorld plugin
+
+2004-02-01	masterserver-0.3.2 release
+- libh2 process() function fixed
+- libh2/q2 gamespy query bug fixed (thanks to fatty <fatty@gmx.ch>)
+- made log messages smaller
+- docs/PROTOKOLLE updated
+
+2003-10-25	masterserver-0.3.1 release
+- major bugfixes in Quake3 plugin and masterserver
+
+2003-10-20	masterserver-0.3 release
+- Quake2 plugin
+- Heretic2 plugin
+- masterserver doesn't automatically daemonize anymore
+- lots of changes under the "hood"
+- binding to interfaces works now as intended
+- motd support in Quake3 plugin
+- no interface limit
+- plugins can use more than one port
+
+2002-12-03	masterserver-0.2 release
+- Binding to specific interfaces/devices implemented (e.g. -i --listen-on eth0)
+	Allows up to 15 interfaces (this is hardcoded in masterserver.c line 169)
+- masterserver now automatically daemonizes (e.g. -D --no-daemon to prevent)
+
+2002-11-03	masterserver-0.1 release
